@@ -100,19 +100,19 @@
             <url>https://repo.essentialsx.net/releases/</url>
         </repository>
         <repository>
-            <id>velocity</id>
-            <url>https://repo.velocitypowered.com/snapshots/</url>
-        </repository>
-        <repository>
             <id>papermc</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
+        </repository>
+        <repository>
+            <id>papermc-snapshots</id>
+            <url>https://repo.papermc.io/repository/maven-snapshots/</url>
         </repository>
     </repositories>
     <dependencies>
     	<dependency>
     		<groupId>io.papermc.paper</groupId>
     		<artifactId>paper-api</artifactId>
-    		<version>1.21.8-R0.1-SNAPSHOT</version>
+    		<version>1.21.1-R0.1-SNAPSHOT</version>
     		<scope>provided</scope>
 		</dependency>
         <dependency>
@@ -191,14 +191,14 @@
         <dependency>
             <groupId>net.md-5</groupId>
             <artifactId>bungeecord-api</artifactId>
-            <version>1.20-R0.1-SNAPSHOT</version>
+            <version>1.20-R0.1</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>net.md-5</groupId>
             <artifactId>bungeecord-api</artifactId>
-            <version>1.20-R0.1-SNAPSHOT</version>
+            <version>1.20-R0.1</version>
             <type>javadoc</type>
             <scope>provided</scope>
         </dependency>
